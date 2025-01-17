@@ -62,7 +62,7 @@ global.moneda = 'dragones'
 global.welcom1 = 'Edita Con #setwelcome'
 global.welcom2 = 'Edita Con #setbye'
 global.banner = 'https://qu.ax/xTDrE.jpg'
-global.catalogo = 'https://files.catbox.moe/yuhztz.jpg'
+global.catalogo = 'https://qu.ax/DuHib.jpg'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
