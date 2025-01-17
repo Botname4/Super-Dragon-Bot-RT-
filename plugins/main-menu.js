@@ -1,4 +1,4 @@
-import moment from 'moment-timezone';
+ import moment from 'moment-timezone';
 
 let handler = async (m, { conn, args }) => {
   let userId = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.sender;
@@ -22,7 +22,7 @@ let handler = async (m, { conn, args }) => {
 │✰ Experiencia » ${exp.toLocaleString()}
 │✦ Nivel » ${nivel}
 │✤ Rango » ${role}
-│🜲 𝓓𝓮𝓿𝓮𝓵𝓸𝓹𝓮𝓭 𝓫𝔂  ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆)♥︎
+│🜲 Propietario » ☆꧁legend꧂♥︎
 ╰─────────────────
 ᴄʀᴇᴀ ᴜɴ sᴜʙ-ʙᴏᴛ ᴄᴏɴ ᴛᴜ ɴᴜᴍᴇʀᴏ ᴜᴛɪʟɪᴢᴀɴᴅᴏ *#serbot* o *#serbot code*
 
