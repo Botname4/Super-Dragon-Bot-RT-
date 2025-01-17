@@ -1,9 +1,9 @@
-<h1 align="center">KAKAROTO-BOT-MD 💨</h1>
+<h1 align="center">Super Dragón Bot z💨</h1>
  <p align="center">🌟 déjanos tu super estrella</p>
 </p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Bienvenido+al+Repositorio;Kakaroto+-+Bot+-+MD;Gracias+por+preferirnos;Creado+por+legendary;💨🔥+BOOM!!!;💨🔥)](https://git.io/typing-svg)
-![Kakaroto](https://i.ibb.co/4NWqF0m/file.jpg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Bienvenido+al+Repositorio;Dragon+-+z+-+MD;Gracias+por+preferirnos;Creado+por+legendary;💨🔥+BOOM!!!;💨🔥)](https://git.io/typing-svg)
+![Bot z](https://qu.ax/PEPFD.jpg)
 
 > ⚜️ Versión 3.0.0
 
