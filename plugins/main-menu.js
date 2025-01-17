@@ -71,8 +71,6 @@ let handler = async (m, { conn, args }) => {
 ✎ Comandos para realizar búsquedas en distintas plataformas.
 ꨄ *#tiktoksearch • #tiktoks*
 → Buscador de videos de tiktok.
-ꨄ *#tweetposts*
-→ Buscador de posts de Twitter/X.
 ꨄ *#ytsearch • #yts*
 → Realiza búsquedas de Youtube.
 ꨄ *#google*
@@ -96,28 +94,19 @@ let handler = async (m, { conn, args }) => {
 ꨄ︎ *#mediafire • #mf*
 → Descargar un archivo de MediaFire.
 ꨄ︎ *#pinvid • #pinvideo* + [enlacé]
-→ Descargar vídeos de Pinterest. 
-ꨄ︎ *#mega • #mg* + [enlacé]
-→ Descargar un archivo de MEGA.
+→ Descargar vídeos de Pinterest.
 ꨄ︎ *#play • #play2*
 → Descarga música/video de YouTube.
 ꨄ︎ *#fb • #facebook*
 → Descarga videos de Facebook.
-ꨄ︎ *#twitter • #x* + [Link]
-→ Descargar un video de Twitter/X
 ꨄ︎ *#ig • #instagram*
 → Descarga contenido de Instagram.
 ꨄ︎ *#tts • #tiktoks* + [busqueda]
 → Buscar videos de tiktok 
-ꨄ︎ *#gdrive • #drive* + [enlace]
-→ Descargar archivos por Google Drive.
 ꨄ︎ *#ttimg • #ttmp3* + <url>
 → Descarga fotos/audios de tiktok. 
 ꨄ︎ *#apk • #modapk*
 → Descarga un apk de Aptoide.
-ꨄ︎ *#tiktokrandom • #ttrandom*
-→ Descarga un video aleatorio de tiktok.
-ꨄ︎ *#npmdl • #npmdownloader*
 → Descarga paquetes de NPMJs.
 ꨄ︎ *#animelinks • #animedl*
 → Descarga Links disponibles de descargas.
@@ -157,8 +146,6 @@ let handler = async (m, { conn, args }) => {
 → Crea stickers con texto.
 ꨄ︎ *#emojimix*
 → Fuciona 2 emojis para crear un sticker.
-ꨄ︎ *#furbrat*
-→ Crea un sticker con tu nombre.
 ꨄ︎ *#wm*
 → Cambia el nombre de los stickers.
 
@@ -227,10 +214,6 @@ let handler = async (m, { conn, args }) => {
 →  Ver la Informacion del grupo.
 ꨄ︎ *#linea • #listonline*
 → Ver la lista de los usuarios en linea.
-ꨄ︎ *#setwelcome*
-→ Establecer un mensaje de bienvenida personalizado.
-ꨄ︎ *#setbye*
-→ Establecer un mensaje de despedida personalizado.
 ꨄ︎ *#link*
 → El bot envia el link del grupo.
 ꨄ︎ *#admins • #admin*
@@ -283,66 +266,39 @@ let handler = async (m, { conn, args }) => {
 ✎ Comandos de reacciones de anime.
 ꨄ︎ *#angry • #enojado* + <mencion>
 → Estar enojado
-ꨄ︎ *#blush* + <mencion>
-→ Sonrojarte
-ꨄ︎ *#cry* + <mencion>
-→ Llorar por algo o alguien
-ꨄ︎ *#cuddle* + <mencion>
-→ Acurrucarse
 ꨄ︎ *#dance* + <mencion>
-→ Sacate los pasitos prohíbidos
-ꨄ︎ *#drunk* + <mencion>
-→ Estar borracho
-ꨄ︎ *#happy • #feliz* + <mencion>
-→ Salta de felicidad
-ꨄ︎ *#hug* + <mencion>
-→ Dar un abrazo
+→ Saca
 ꨄ︎ *#impregnate • #preg* + <mencion>
 → Embarazar a alguien
 ꨄ︎ *#kill* + <mencion>
 → Toma tu arma y mata a alguien
 ꨄ︎ *#kiss • #besar* • #kiss2 + <mencion>
 → Dar un beso
-ꨄ︎ *#laugh* + <mencion>
-→ Reírte de algo o alguien
 ꨄ︎ *#lick* + <mencion>
 → Lamer a alguien
-ꨄ︎ *#love • #amor* + <mencion>
-→ Sentirse enamorado
-ꨄ︎ *#pat* + <mencion>
-→ Acaricia a alguien
-ꨄ︎ *#sad • #triste* + <mencion>
-→ Expresar tristeza
 ꨄ︎ *#slap* + <mencion>
 → Dar una bofetada
 ꨄ︎ *#smoke* + <mencion>
-→ Fumar
-ꨄ︎ *#think* + <mencion>
-→ Pensar en algo
 
 »  ⊹˚• `NSFW` •˚⊹
 
 ✎ Comandos NSFW (Contenido para adultos)
 ꨄ︎ *#anal* + <mencion>
 → Hacer un anal
-ꨄ︎ *#waifu*
+ꨄ︎ *#waifu
 → Buscá una waifu aleatorio.
 ꨄ︎ *#bath* + <mencion>
 → Bañarse
 ꨄ︎ *#cum* + <mencion>
 → Venirse en alguien.
-ꨄ︎ *#ppcouple • #ppcp*
-→ Genera imagenes para amistades o parejas.
 ꨄ︎ *#fuck • #coger • #fuck2* + <mencion>
 → Follarte a alguien
 ꨄ︎ *#violar • #perra + <mencion>
 → Viola a alguien
-→ Manosear a alguien
 ꨄ︎ *#rule34 • #r34* + [Tags]
 → Buscar imagenes H
 ꨄ︎ *#undress • #encuerar* + <mencion>
 → Desnudar a alguien.
-
   `.trim();
 
   await conn.sendMessage(m.chat, { 
