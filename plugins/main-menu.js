@@ -26,18 +26,16 @@ let handler = async (m, { conn, args }) => {
 ╰─────────────────
 ᴄʀᴇᴀ ᴜɴ sᴜʙ-ʙᴏᴛ ᴄᴏɴ ᴛᴜ ɴᴜᴍᴇʀᴏ ᴜᴛɪʟɪᴢᴀɴᴅᴏ *#serbot* o *#serbot code*
 
-»  ⊹˚• \`Info-Bot\` •˚⊹
+ᴄʀᴇᴀ ᴜɴ sᴜʙ-ʙᴏᴛ ᴄᴏɴ ᴛᴜ ɴᴜᴍᴇʀᴏ ᴜᴛɪʟɪᴢᴀɴᴅᴏ *#serbot* o *#serbot code*
+
+»  ⊹˚• `Info-Bot` •˚⊹
 
 ✎ Comandos para ver estado e información de la Bot.
 ꨄ︎ *#help • #menu*
 → Ver la lista de comandos de la Bot.
 ꨄ︎ *#uptime • #runtime*
 → Ver tiempo activo o en linea de la Bot.
-ꨄ︎ *#sc • #script*
-→ Link del repositorio oficial de la Bot
-ꨄ︎ *#staff • #colaboradores*
-→ Ver la lista de desarrolladores de la Bot.
-ꨄ︎ *#serbot • #serbot code
+ꨄ︎ *#serbot • #serbot code*
 → Crea una sesión de Sub-Bot.
 ꨄ︎ *#bots • #sockets*
 → Ver la lista de Sub-Bots activos.
@@ -70,7 +68,7 @@ let handler = async (m, { conn, args }) => {
 ꨄ︎ *#editautoresponder*
 → Configurar un Prompt personalizado de la Bot.
 
-»  ⊹˚• \`Buscadores\` •˚⊹
+»  ⊹˚• `Buscadores` •˚⊹
 
 ✎ Comandos para realizar búsquedas en distintas plataformas.
 ꨄ *#tiktoksearch • #tiktoks*
@@ -79,10 +77,6 @@ let handler = async (m, { conn, args }) => {
 → Buscador de posts de Twitter/X.
 ꨄ *#ytsearch • #yts*
 → Realiza búsquedas de Youtube.
-ꨄ *#githubsearch*
-→ Buscador de usuarios de GitHub.
-ꨄ *#cuevana • #cuevanasearch*
-→ Buscador de películas/series por Cuevana.
 ꨄ *#google*
 → Realiza búsquedas por Google.
 ꨄ *#pin • #pinterest*
@@ -95,18 +89,8 @@ let handler = async (m, { conn, args }) => {
 → Buscador de capítulos de #animesearch.
 ꨄ *#infoanime*
 → Buscador de información de anime/manga.
-ꨄ *#hentaisearch • #searchhentai*
-→ Buscador de capítulos hentai.
-ꨄ #xnxxsearch • #xnxxs*
-→ Buscandor de vídeos de Xnxx.
-ꨄ *#xvsearch • #xvideossearch*
-→ Buscador de vídeos de Xvideos.
-ꨄ *#pornhubsearch • #phsearch*
-→ Buscador de videos de Pornhub.
-ꨄ *#npmjs*
-→ Buscandor de npmjs.
 
-»  ⊹˚• \`Descargas\` •˚⊹
+»  ⊹˚• `Descargas` •˚⊹
 
 ✎ Comandos de descargas para varios archivos.
 ꨄ︎ *#tiktok • #tt*
@@ -127,18 +111,10 @@ let handler = async (m, { conn, args }) => {
 → Descarga contenido de Instagram.
 ꨄ︎ *#tts • #tiktoks* + [busqueda]
 → Buscar videos de tiktok 
-ꨄ︎ *#terabox • #tb* + [enlace]
-→ Descargar archivos por Terabox.
 ꨄ︎ *#gdrive • #drive* + [enlace]
 → Descargar archivos por Google Drive.
 ꨄ︎ *#ttimg • #ttmp3* + <url>
 → Descarga fotos/audios de tiktok. 
-ꨄ︎ *#gitclone* + <url> 
-→ Descarga un repositorio de github.
-ꨄ︎ *#xvideosdl*
-→ Descarga videos porno de (Xvideos). 
-ꨄ︎ *#xnxxdl*
-→ Descarga videos porno de (xnxx).
 ꨄ︎ *#apk • #modapk*
 → Descarga un apk de Aptoide.
 ꨄ︎ *#tiktokrandom • #ttrandom*
@@ -148,7 +124,7 @@ let handler = async (m, { conn, args }) => {
 ꨄ︎ *#animelinks • #animedl*
 → Descarga Links disponibles de descargas.
 
-»  ⊹˚• \`Gacha\` •˚⊹
+»  ⊹˚• `Gacha` •˚⊹
 
 ✎ Comandos de gacha para reclamar y colecciónar personajes.
 ꨄ︎ *#rollwaifu • #rw • #roll*
@@ -168,7 +144,7 @@ let handler = async (m, { conn, args }) => {
 ꨄ︎ *#waifusboard • #waifustop • #topwaifus*
 → Ver el top de personajes con mayor valor.
 
-»  ⊹˚• \`Stickers\` •˚⊹
+»  ⊹˚• `Stickers` •˚⊹
 
 ✎ Comandos para creaciones de stickers etc.
 ꨄ︎ *#sticker • #s*
@@ -188,39 +164,27 @@ let handler = async (m, { conn, args }) => {
 ꨄ︎ *#wm*
 → Cambia el nombre de los stickers.
 
-»  ⊹˚• \`Herramientas\` •˚⊹
+»  ⊹˚• `Herramientas` •˚⊹
 
 ✎ Comandos de herramientas con muchas funciones.
-ꨄ︎ *#calcular • #calcular • #cal*
-→ Calcular todo tipo de ecuaciones.
-ꨄ︎ *#tiempo • #clima*
-→ Ver el clima de un pais.
-ꨄ︎ *#horario*
-→ Ver el horario global de los países.
 ꨄ︎ *#fake • #fakereply*
 → Crea un mensaje falso de un usuario.
 ꨄ︎ *#enhance • #remini • #hd*
 → Mejora la calidad de una imagen.
-ꨄ︎ *#letra*
-→ Cambia la fuente de las letras.
 ꨄ︎ *#read • #readviewonce • #ver*
 → Ver imágenes de una sola vista.
 ꨄ︎ *#whatmusic • #shazam*
 → Descubre el nombre de canciones o vídeos.
 ꨄ︎ *#spamwa • #spam*
 → Envia spam aun usuario.
-ꨄ︎ *#ss • #ssweb*
-→ Ver el estado de una página web.
 ꨄ︎ *#length • #tamaño*
 → Cambia el tamaño de imágenes y vídeos.
 ꨄ︎ *#say • #decir* + [texto]
 → Repetir un mensaje.
-ꨄ︎ *#todoc • #toducument*
-→ Crea documentos de (audio, imágenes y vídeos).
 ꨄ︎ *#translate • #traducir • #trad*
 → Traduce palabras en otros idiomas.
 
-»  ⊹˚• \`Perfil\` •˚⊹
+»  ⊹˚• `Perfil` •˚⊹
 
 ✎ Comandos de perfil para ver, configurar y comprobar estados de tu perfil.
 ꨄ︎ *#reg • #verificar • #register*
@@ -246,7 +210,7 @@ let handler = async (m, { conn, args }) => {
 ꨄ︎ *#deldescription • #deldesc*
 → Elimina la descripción de tu perfil del bot.
 ꨄ︎ *#lb • #lboard* + <Paginá>
-→ Top de usuarios con más (experiencia, ${moneda} y nivel).
+→ Top de usuarios con más (experiencia, dragones y nivel).
 ꨄ︎ *#level • #lvl* + <@Mencion>
 → Ver tu nivel y experiencia actual.
 ꨄ︎ *#comprarpremium • #premium*
@@ -254,7 +218,7 @@ let handler = async (m, { conn, args }) => {
 ꨄ︎ #confesiones • #confesar*
 → Confiesa tus sentimientos a alguien de manera anonima.
 
-»  ⊹˚• \`Grupo\` •˚⊹
+»  ⊹˚• `Grupo` •˚⊹
 
 ✎ Comandos de grupos para una mejor gestión de ellos.
 ꨄ︎ *#config • #on*
@@ -291,14 +255,10 @@ let handler = async (m, { conn, args }) => {
 → Cambiar la imagen del grupo.
 ꨄ︎ *#gpname • #groupname*
 → Cambiar el nombre del grupo.
-ꨄ︎ *#gpdesc • #groupdesc*
-→ Cambiar la descripción del grupo.
 ꨄ︎ *#advertir • #warn • #warning*
 → Darle una advertencia aún usuario.
 ꨄ ︎*#unwarn • #delwarn*
 → Quitar advertencias.
-ꨄ︎ *#advlist • #listadv*
-→Ver lista de usuarios advertidos.
 ꨄ︎ *#banchat*
 → Banear el Bot en un chat o grupo.
 ꨄ︎ *#unbanchat*
@@ -307,8 +267,6 @@ let handler = async (m, { conn, args }) => {
 → El bot elimina los mensajes del usuario.
 ꨄ︎ *#unmute* [mension / etiquetar]
 → El bot deja de eliminar los mensajes del usuario.
-ꨄ︎ *#encuesta • #poll*
-→ Crea una encuesta.
 ꨄ︎ *#delete • #del*
 → Elimina mensaje de otros usuarios.
 ꨄ︎ *#fantasmas*
@@ -322,19 +280,13 @@ let handler = async (m, { conn, args }) => {
 ꨄ︎ *#listnum • #kicknum*
 → Elimine a usuario por el prefijo de país.
 
-»  ⊹˚• \`Anime\` •˚⊹
+»  ⊹˚• `Anime` •˚⊹
 
 ✎ Comandos de reacciones de anime.
 ꨄ︎ *#angry • #enojado* + <mencion>
 → Estar enojado
-ꨄ︎ *#bite* + <mencion>
-→ Muerde a alguien
-ꨄ︎ *#bleh* + <mencion>
-→ Sacar la lengua
 ꨄ︎ *#blush* + <mencion>
 → Sonrojarte
-ꨄ︎ *#bored • #aburrido* + <mencion>
-→ Estar aburrido
 ꨄ︎ *#cry* + <mencion>
 → Llorar por algo o alguien
 ꨄ︎ *#cuddle* + <mencion>
@@ -343,10 +295,6 @@ let handler = async (m, { conn, args }) => {
 → Sacate los pasitos prohíbidos
 ꨄ︎ *#drunk* + <mencion>
 → Estar borracho
-ꨄ︎ *#eat • #comer* + <mencion>
-→ Comer algo delicioso
-ꨄ︎ *#facepalm* + <mencion>
-→ Darte una palmada en la cara
 ꨄ︎ *#happy • #feliz* + <mencion>
 → Salta de felicidad
 ꨄ︎ *#hug* + <mencion>
@@ -365,36 +313,16 @@ let handler = async (m, { conn, args }) => {
 → Sentirse enamorado
 ꨄ︎ *#pat* + <mencion>
 → Acaricia a alguien
-ꨄ︎ *#poke* + <mencion>
-→ Picar a alguien
-ꨄ︎ *#pout* + <mencion>
-→ Hacer pucheros
-ꨄ︎ *#punch* + <mencion>
-→ Dar un puñetazo
-ꨄ︎ *#run* + <mencion>
-→ Correr
 ꨄ︎ *#sad • #triste* + <mencion>
 → Expresar tristeza
-ꨄ︎ *#scared* + <mencion>
-→ Estar asustado
-ꨄ︎ *#seduce* + <mencion>
-→ Seducir a alguien
-ꨄ︎ *#shy • #timido* + <mencion>
-→ Sentir timidez
 ꨄ︎ *#slap* + <mencion>
 → Dar una bofetada
-ꨄ︎ *#dias • #days*
-→ Darle los buenos días a alguien 
-ꨄ︎ *#noches • #nights*
-→ Darle las buenas noches a alguien 
-ꨄ︎ *#sleep* + <mencion>
-→ Tumbarte a dormir
 ꨄ︎ *#smoke* + <mencion>
 → Fumar
 ꨄ︎ *#think* + <mencion>
 → Pensar en algo
 
-»  ⊹˚• \`NSFW\` •˚⊹
+»  ⊹˚• `NSFW` •˚⊹
 
 ✎ Comandos NSFW (Contenido para adultos)
 ꨄ︎ *#anal* + <mencion>
@@ -403,42 +331,20 @@ let handler = async (m, { conn, args }) => {
 → Buscá una waifu aleatorio.
 ꨄ︎ *#bath* + <mencion>
 → Bañarse
-ꨄ︎ *#blowjob • #mamada • #bj* + <mencion>
-→ Dar una mamada
-ꨄ︎ *#boobjob* + <mencion>
-→ Hacer una rusa
 ꨄ︎ *#cum* + <mencion>
 → Venirse en alguien.
-ꨄ︎ *#fap* + <mencion>
-→ Hacerse una paja
 ꨄ︎ *#ppcouple • #ppcp*
 → Genera imagenes para amistades o parejas.
-ꨄ︎ *#footjob* + <mencion>
-→ Hacer una paja con los pies
 ꨄ︎ *#fuck • #coger • #fuck2* + <mencion>
 → Follarte a alguien
-ꨄ︎ *#cafe • #coffe*
-→ Tomate un cafecito con alguien
 ꨄ︎ *#violar • #perra + <mencion>
 → Viola a alguien
-ꨄ︎ *#grabboobs* + <mencion>
-→ Agarrrar tetas
-ꨄ︎ *#grop* + <mencion>
 → Manosear a alguien
-ꨄ︎ *#lickpussy* + <mencion>
-→ Lamer un coño
 ꨄ︎ *#rule34 • #r34* + [Tags]
-→ Buscar imagenes en Rule34
-ꨄ︎ *#sixnine • #69* + <mencion>
-→ Haz un 69 con alguien
-ꨄ︎ *#spank • #nalgada* + <mencion>
-→ Dar una nalgada
-ꨄ︎ *#suckboobs* + <mencion>
-→ Chupar tetas
+→ Buscar imagenes H
 ꨄ︎ *#undress • #encuerar* + <mencion>
 → Desnudar a alguien
-ꨄ︎ *#yuri • #tijeras* + <mencion>
-→ Hacer tijeras.
+
   `.trim();
 
   await conn.sendMessage(m.chat, { 
