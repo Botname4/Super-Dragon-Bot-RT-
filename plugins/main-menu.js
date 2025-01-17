@@ -22,7 +22,7 @@ let handler = async (m, { conn, args }) => {
 │✰ Experiencia » ${exp.toLocaleString()}
 │✦ Nivel » ${nivel}
 │✤ Rango » ${role}
-│🜲 𝓓𝓮𝓿𝓮𝓵𝓸𝓹𝓮𝓭 𝓫𝔂  ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜⁩
+│🜲 Propietario legend ⁩
 ╰─────────────────
 ᴄʀᴇᴀ ᴜɴ sᴜʙ-ʙᴏᴛ ᴄᴏɴ ᴛᴜ ɴᴜᴍᴇʀᴏ ᴜᴛɪʟɪᴢᴀɴᴅᴏ *#serbot* o *#serbot code*
 
