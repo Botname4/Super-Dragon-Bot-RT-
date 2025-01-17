@@ -5,19 +5,17 @@ let handler = async (m, { conn, usedPrefix }) => {
     let who = m.mentionedJid[0] ? m.mentionedJid[0] : m.sender;
 
     if (!(who in global.db.data.users)) {
-        return conn.reply(m.chat, '👤 El usuario no se encuentra en mi base de Datos.', m);
+        return conn.reply(m.chat, '🍬 El usuario no se encuentra en mi base de Datos.', m);
     }
 
     let user = global.db.data.users[who];
     let name = conn.getName(who);
 
-    // Verificación de estado premium
     let premium = user.premium ? '✅' : '❌';
 
-    // Crear el mensaje de inventario
     let text = `╭━〔 Inventario de ${name} 〕⬣\n` +
-               `┋ 🐉 *dragones en Cartera:* ${user.dragones || 0} 🐉\n` +  
-               `┋ 🏦 *dragones en Banco:* ${user.bank || 0} 🐉\n` + 
+               `┋ 💸 *${moneda} en Cartera:* ${user.coin || 0}\n` +  
+               `┋ 🏦 *${moneda} en Banco:* ${user.bank || 0}\n` + 
                `┋ ♦️ *Esmeraldas:* ${user.emerald || 0}\n` + 
                `┋ 🔩 *Hierro:* ${user.iron || 0}\n` +  
                `┋ 🏅 *Oro:* ${user.gold || 0}\n` + 
@@ -25,8 +23,7 @@ let handler = async (m, { conn, usedPrefix }) => {
                `┋ 🪨 *Piedra:* ${user.stone || 0}\n` +  
                `┋ ✨ *Experiencia:* ${user.exp || 0}\n` + 
                `┋ ❤️ *Salud:* ${user.health || 100}\n` + 
-               `┋ 💎 *Diamantes:* ${user.diamond || 0}\n` + 
-               `┋ 🪙 *Coins:* ${user.money || 0}\n` +  
+               `┋ 💎 *Diamantes:* ${user.diamond || 0}\n` +   
                `┋ 🍬 *Dulces:* ${user.candies || 0}\n` + 
                `┋ 🎁 *Regalos:* ${user.gifts || 0}\n` + 
                `┋ 🎟️ *Tokens:* ${user.joincount || 0}\n` +  
