@@ -66,7 +66,7 @@ let handler = async (m, { conn, args }) => {
 ꨄ︎ *#editautoresponder*
 → Configurar un Prompt personalizado de la Bot.
 
-»  ⊹˚• `Buscadores` •˚⊹
+»  ⊹˚• \`Buscadores\` •˚⊹
 
 ✎ Comandos para realizar búsquedas en distintas plataformas.
 ꨄ *#tiktoksearch • #tiktoks*
@@ -86,7 +86,7 @@ let handler = async (m, { conn, args }) => {
 ꨄ *#infoanime*
 → Buscador de información de anime/manga.
 
-»  ⊹˚• `Descargas` •˚⊹
+»  ⊹˚• \`Descargas\` •˚⊹
 
 ✎ Comandos de descargas para varios archivos.
 ꨄ︎ *#tiktok • #tt*
@@ -111,7 +111,7 @@ let handler = async (m, { conn, args }) => {
 ꨄ︎ *#animelinks • #animedl*
 → Descarga Links disponibles de descargas.
 
-»  ⊹˚• `Gacha` •˚⊹
+»  ⊹˚• \`Gacha\` •˚⊹
 
 ✎ Comandos de gacha para reclamar y colecciónar personajes.
 ꨄ︎ *#rollwaifu • #rw • #roll*
@@ -131,7 +131,7 @@ let handler = async (m, { conn, args }) => {
 ꨄ︎ *#waifusboard • #waifustop • #topwaifus*
 → Ver el top de personajes con mayor valor.
 
-»  ⊹˚• `Stickers` •˚⊹
+»  ⊹˚• \`Stickers\` •˚⊹
 
 ✎ Comandos para creaciones de stickers etc.
 ꨄ︎ *#sticker • #s*
@@ -149,7 +149,7 @@ let handler = async (m, { conn, args }) => {
 ꨄ︎ *#wm*
 → Cambia el nombre de los stickers.
 
-»  ⊹˚• `Herramientas` •˚⊹
+»  ⊹˚• \`Herramientas\` •˚⊹
 
 ✎ Comandos de herramientas con muchas funciones.
 ꨄ︎ *#fake • #fakereply*
@@ -169,7 +169,7 @@ let handler = async (m, { conn, args }) => {
 ꨄ︎ *#translate • #traducir • #trad*
 → Traduce palabras en otros idiomas.
 
-»  ⊹˚• `Perfil` •˚⊹
+»  ⊹˚• \`Perfil\` •˚⊹
 
 ✎ Comandos de perfil para ver, configurar y comprobar estados de tu perfil.
 ꨄ︎ *#reg • #verificar • #register*
@@ -203,7 +203,7 @@ let handler = async (m, { conn, args }) => {
 ꨄ︎ #confesiones • #confesar*
 → Confiesa tus sentimientos a alguien de manera anonima.
 
-»  ⊹˚• `Grupo` •˚⊹
+»  ⊹˚• \`Grupo\` •˚⊹
 
 ✎ Comandos de grupos para una mejor gestión de ellos.
 ꨄ︎ *#config • #on*
@@ -261,7 +261,7 @@ let handler = async (m, { conn, args }) => {
 ꨄ︎ *#listnum • #kicknum*
 → Elimine a usuario por el prefijo de país.
 
-»  ⊹˚• `Anime` •˚⊹
+»  ⊹˚• \`Anime\` •˚⊹
 
 ✎ Comandos de reacciones de anime.
 ꨄ︎ *#angry • #enojado* + <mencion>
@@ -280,7 +280,7 @@ let handler = async (m, { conn, args }) => {
 → Dar una bofetada
 ꨄ︎ *#smoke* + <mencion>
 
-»  ⊹˚• `NSFW` •˚⊹
+»  ⊹˚• \`NSFW\` •˚⊹
 
 ✎ Comandos NSFW (Contenido para adultos)
 ꨄ︎ *#anal* + <mencion>
