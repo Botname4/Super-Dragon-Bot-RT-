@@ -61,7 +61,7 @@ global.textbot = '⋆S͙úp͙e͙r͙ D͙r͙a͙g͙ón͙ B͙o͙t͙ z͙⋆. • Powe
 global.moneda = 'dragones'
 global.welcom1 = 'Edita Con #setwelcome'
 global.welcom2 = 'Edita Con #setbye'
-global.banner = 'https://tinyurl.com/2y5swnfc'
+global.banner = 'https://qu.ax/PEPFD.jpg'
 global.catalogo = 'https://files.catbox.moe/yuhztz.jpg'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
