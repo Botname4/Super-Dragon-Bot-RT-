@@ -18,16 +18,16 @@
 "eslint": "eslint .",
 "eslintfix": "eslint --fix ."
 },
-"homepage": "https://github.com/The-King-Destroy/Yuki_Suou-Bot",
+"homepage": "https://github.com/Botname4/Super-Dragon-Bot-RT-",
 "author": {
 "name": "The-King-Destroy"
 },
 "repository": {
 "type": "git",
-"url": "git+https://github.com/The-King-Destroy/Yuki_Suou-Bot.git"
+"url": "git+https://github.com/Botname4/Super-Dragon-Bot-RT-"
 },
 "bugs": {
-"url": "https://github.com/The-King-Destroy/Yuki_Suou-Bot/issues"
+"url": "https://github.com/Botname4/Super-Dragon-Bot-RT-/issues"
 },
 "license": "GPL-3.0-or-later",
 "dependencies": {
