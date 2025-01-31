@@ -90,15 +90,15 @@ global.photoSity = [imagen8, imagen1, imagen4, imagen6]
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.gp4 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-global.gp1 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' 
-global.gp2 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-global.comunidad1 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-global.channel = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-global.channel2 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-global.md = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-global.correo = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-global.cn ='https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t';
+global.gp4 = 'https://chat.whatsapp.com/IznQ59ZAKeE1Zyjirs5HDF'
+global.gp1 = 'https://chat.whatsapp.com/IznQ59ZAKeE1Zyjirs5HDF' 
+global.gp2 = 'https://chat.whatsapp.com/IznQ59ZAKeE1Zyjirs5HDF'
+global.comunidad1 = 'https://chat.whatsapp.com/IznQ59ZAKeE1Zyjirs5HDF'
+global.channel = 'https://chat.whatsapp.com/IznQ59ZAKeE1Zyjirs5HDF'
+global.channel2 = 'https://chat.whatsapp.com/IznQ59ZAKeE1Zyjirs5HDF'
+global.md = 'https://chat.whatsapp.com/IznQ59ZAKeE1Zyjirs5HDF'
+global.correo = 'https://chat.whatsapp.com/IznQ59ZAKeE1Zyjirs5HDF'
+global.cn ='https://chat.whatsapp.com/IznQ59ZAKeE1Zyjirs5HDF';
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
