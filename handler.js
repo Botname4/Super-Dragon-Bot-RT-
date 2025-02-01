@@ -152,7 +152,7 @@ chat.sAutoresponder = ''
 if (!('welcome' in chat))
 chat.welcome = true
 if (!('autolevelup' in chat))
-chat.autolevelup = true
+chat.autolevelup = false
 if (!('autoAceptar' in chat))
 chat.autoAceptar = false
 if (!('autoRechazar' in chat))
@@ -192,7 +192,7 @@ global.db.data.chats[m.chat] = {
 isBanned: false,
 sAutoresponder: '',
 welcome: true,
-autolevelup: true,
+autolevelup: false,
 autoresponder: false,
 delete: false,
 autoAceptar: false,
@@ -364,26 +364,19 @@ let user = global.db.data.users[m.sender]
 if (!['grupo-unbanchat.js'].includes(name) && chat && chat.isBanned && !isROwner) return // Except this
 if (name != 'grupo-unbanchat.js' && name != 'owner-exec.js' && name != 'owner-exec2.js' && name != 'grupo-delete.js' && chat?.isBanned && !isROwner) return 
 if (m.text && user.banned && !isROwner) {
-if (user.antispam > 2) return
 m.reply(`🍭 Estas baneado/a, no puedes usar comandos en este bot!\n\n${user.bannedReason ? `\n📝 *Motivo:* 
-${user.bannedReason}` : '📄 *Motivo:* Sin Especificar'}\n\n🍧 Si quieres que seas desbaneado en este bot escribe a: Wa.me/584148256527`)
-user.antispam++        
+${user.bannedReason}` : '📄 *Motivo:* Sin Especificar'}\n\n🍧 Si quieres que seas desbaneado en este bot escribe a: Wa.me/584148256527`)       
 return
 }
-
-//Antispam 2                
-if (user.antispam2 && isROwner) return
-let time = global.db.data.users[m.sender].spam + 3000
-if (new Date - global.db.data.users[m.sender].spam < 3000) return console.log(`⪩ S P A M ⪨`) 
-global.db.data.users[m.sender].spam = new Date * 1
 }
+
 if (m.chat in global.db.data.chats || m.sender in global.db.data.users) {
 let chat = global.db.data.chats[m.chat]
 let user = global.db.data.users[m.sender]
 let setting = global.db.data.settings[this.user.jid]
-if (name != 'Grupo-unbanchat.js' && chat?.isBanned)
+if (name != 'grupo-unbanchat.js' && chat?.isBanned)
 return 
-if (name != 'Owner-unbanuser.js' && user?.banned)
+if (name != 'owner-unbanuser.js' && user?.banned)
 return
 }
 let hl = _prefix 
