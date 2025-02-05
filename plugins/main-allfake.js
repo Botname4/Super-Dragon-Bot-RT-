@@ -81,8 +81,8 @@ global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻�
 
 //Enlaces
 var canal = 'https://chat.whatsapp.com/IznQ59ZAKeE1Zyjirs5HDF'  
-let canal2 = 'https://chat.whatsapp.com/IznQ59ZAKeE1Zyjirs5HDF'
-var git = 'https://chat.whatsapp.com/IznQ59ZAKeE1Zyjirs5HDF'
+let canal2 = 'https://chat.whatsapp.com/HFVj1OrUTPHIbq6IMq5eyd'
+var git = 'https://chat.whatsapp.com/HFVj1OrUTPHIbq6IMq5eyd'
 var github = 'https://chat.whatsapp.com/IznQ59ZAKeE1Zyjirs5HDF' 
 let correo = 'https://chat.whatsapp.com/IznQ59ZAKeE1Zyjirs5HDF'
 
