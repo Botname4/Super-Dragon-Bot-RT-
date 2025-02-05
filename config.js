@@ -94,10 +94,10 @@ global.gp4 = 'https://chat.whatsapp.com/HFVj1OrUTPHIbq6IMq5eyd'
 global.gp1 = 'https://chat.whatsapp.com/HFVj1OrUTPHIbq6IMq5eyd' 
 global.gp2 = 'https://chat.whatsapp.com/EqSPmZKpz6rHczeWNaPiGV'
 global.comunidad1 = 'https://chat.whatsapp.com/EqSPmZKpz6rHczeWNaPiGV'
-global.channel = 'https://chat.whatsapp.com/IznQ59ZAKeE1Zyjirs5HDF'
-global.channel2 = 'https://chat.whatsapp.com/IznQ59ZAKeE1Zyjirs5HDF'
-global.md = 'https://chat.whatsapp.com/IznQ59ZAKeE1Zyjirs5HDF'
-global.correo = 'https://chat.whatsapp.com/IznQ59ZAKeE1Zyjirs5HDF'
+global.channel = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
+global.channel2 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
+global.md = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
+global.correo = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
 global.cn ='https://chat.whatsapp.com/EqSPmZKpz6rHczeWNaPiGV';
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
