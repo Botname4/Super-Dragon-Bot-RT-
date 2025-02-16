@@ -28,7 +28,8 @@ let handler = async (m, { conn, args }) => {
 
 
 
-»  ⊹˚• Info-Bot •˚⊹
+
+»  ⊹˚• \`Info-Bot\` •˚⊹
 
 ✎ Comandos para ver estado e información de la Bot 🤖💬  
 ꨄ︎ *#help • #menu*  
@@ -68,7 +69,8 @@ let handler = async (m, { conn, args }) => {
 ꨄ︎ *#infoanime*   
 → 🍥📚 Buscador de información sobre anime/manga. ¡Sumérgete en tus historias favoritas!
 
-»  ⊹˚• Buscadores •˚⊹
+
+»  ⊹˚• \`Buscadores\` •˚⊹
 
 ✎ Comandos para realizar búsquedas en distintas plataformas 🔍✨  
 ꨄ *#tiktoksearch • #tiktoks*  
@@ -88,7 +90,8 @@ let handler = async (m, { conn, args }) => {
 ꨄ *#infoanime*  
 → 🗒️✨ Buscador de información sobre anime/manhwa. ¡Conoce todo sobre tus historias favoritas!
 
-»  ˚• Descargas •˚⊹
+
+»  ⊹˚• \`Descargas\` •˚⊹
 
 ✎ Comandos de descargas para varios archivos 📥✨  
 ꨄ︎ *#tiktok • #tt*  
@@ -113,7 +116,9 @@ let handler = async (m, { conn, args }) => {
 ꨄ︎ *#animelinks • #animedl*  
 → 🍥📥 Descarga Links disponibles para anime. ¡No te pierdas ningún episodio!
 
->> `GACHA` <<
+
+»  ⊹˚• \`Gacha\` •˚⊹
+
 ꨄ︎ *#rollwaifu • #rw • #roll*  
 → 🎉💖 ¡Waifu o husbando aleatorio! ¡La suerte está de tu lado!  
 ꨄ︎ *#claim • #c • #reclamar*  
@@ -131,7 +136,8 @@ let handler = async (m, { conn, args }) => {
 ꨄ︎ *#waifusboard • #waifustop • #topwaifus*  
 → 🥇📊 Ver el top de personajes con mayor valor. ¡Descubre quién manda!
 
-»  ⊹˚• Stickers •˚⊹
+
+»  ⊹˚• \`Stickers\` •˚⊹
 
 ✎ Comandos para creaciones de stickers y más 🎨✨  
 ꨄ︎ *#sticker • #s*  
@@ -149,7 +155,8 @@ let handler = async (m, { conn, args }) => {
 ꨄ︎ *#wm*  
 → ✏️🔄 Cambia el nombre de stickers. ¡Dales tu toque personal!
 
-»  ⊹˚• Herramientas •˚⊹
+
+»  ⊹˚• \`Herramientas\` •˚⊹
 
 ✎ Comandos de herramientas con muchas funciones 🛠️✨  
 ꨄ︎ *#fake • #fakereply*  
@@ -170,7 +177,9 @@ let handler = async (m, { conn, args }) => {
 → 🌍🔤 Traduce palabras en otros idiomas y conecta con el mundo.
 
 
-»  ⊹˚• Perfil •˚
+
+»  ⊹˚• \`Perfil\` •˚⊹
+
 ✎ Comandos de perfil para ver, configurar y comprobar estados de tu perfil 🌟👤  
 ꨄ︎ *#reg • #verificar • #register*  
 → 📝✨ Registra tu nombre y edad en el bot.  
@@ -204,7 +213,8 @@ let handler = async (m, { conn, args }) => {
 → 💌🤫 Confiesa tus sentimientos a alguien de manera anónima.
 
 
-»  ⊹˚• Grupo •˚⊹
+
+»  ⊹˚• \`Grupo\` •˚⊹
 
 ✎ Comandos de grupos para una mejor gestión de ellos 🌟🤖  
 ꨄ︎ *#config • #on*  
@@ -263,7 +273,9 @@ let handler = async (m, { conn, args }) => {
 → 🌍➖ Elimina a usuario por el prefijo de país.
 
 
-»  ⊹˚• Anime •˚
+
+»  ⊹˚• \`Anime\` •˚⊹
+
 ꨄ︎ *#angry • #enojado* + <mencion>  
 → 😡🔥 ¡Estás enojado! La ira se desata.  
 ꨄ︎ *#dance* + <mencion>  
@@ -283,7 +295,8 @@ let handler = async (m, { conn, args }) => {
 
 
 
-»  ⊹˚• NSFW •˚⊹
+
+»  ⊹˚• \`NSFW\` •˚⊹
 
 ✎ Comandos NSFW (Contenido para adultos 🔥🍑)
 ꨄ︎ *#anal* + <mencion>  
